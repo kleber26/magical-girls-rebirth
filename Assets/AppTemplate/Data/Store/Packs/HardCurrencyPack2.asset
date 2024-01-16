@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5e4a31786b24466afcc1a67ea810bd, type: 3}
+  m_Name: HardCurrencyPack2
+  m_EditorClassIdentifier: 
+  itemId: MediumCoinPack
+  priceTier:
+    tier: 2
+  referenceName: 8000 HardCurrency Pack
+  itemName: HardCurrency Pack
+  itemDescription: 8000 HardCurrency
+  reviewScreenshot: screenshots/iaps.png
+  amount: 8000
+  hardCurrency: {fileID: 11400000, guid: 9adf8adcf0d7e49889b354ced064dd7b, type: 2}

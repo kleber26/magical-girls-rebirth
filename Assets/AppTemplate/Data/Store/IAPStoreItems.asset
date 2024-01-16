@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14932a59014cc427babf8d05682ab114, type: 3}
+  m_Name: IAPStoreItems
+  m_EditorClassIdentifier: 
+  itemsList:
+  - {fileID: 11400000, guid: 91f952b62ae9342d69aaf4a251c4d33f, type: 2}
+  - {fileID: 11400000, guid: 0688612dbf7ac4621ad33647950996fc, type: 2}
+  - {fileID: 11400000, guid: bb2f0369fce164dd6b3297d368d24e53, type: 2}

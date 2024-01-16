@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1aa1252e114e84ba43c98b76d6bb28, type: 3}
+  m_Name: DarknessBlade
+  m_EditorClassIdentifier: 
+  name: Darkness Blade
+  description: Mei condensates her dark energy to deal 35 damage
+  skillArea: 1
+  areaSize: 3
+  range: 5
+  characterAnimationTrigger: magic_power01
+  skillSprite: {fileID: 21300000, guid: cd33481786b27497dac841f65999cfc2, type: 3}
+  skillAnimation: {fileID: 1846246636211168781, guid: 5729cfcf17bf94996bf7e3f11f398d18,
+    type: 3}
+  skillAnimationOffset: {x: 0, y: 0, z: 0}
+  skillAttributes:
+  - skillEffect: 0
+    effectValue: 35
+    duration: 0

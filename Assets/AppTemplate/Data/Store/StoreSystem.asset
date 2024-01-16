@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9394f100a7d9a4445a53fe40e0ec20c0, type: 3}
+  m_Name: StoreSystem
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: 03afd6be892b846e7a7d4d51b75d747b, type: 2}
+  storeItems: {fileID: 11400000, guid: 6429b8897a34a4a8da063ae02b02d2af, type: 2}
+  hardCurrency: {fileID: 11400000, guid: 9adf8adcf0d7e49889b354ced064dd7b, type: 2}
+  notEnoughCurrencyEvent: {fileID: 11400000, guid: a71850d3b522b4c848636deda1df03d2,
+    type: 2}
+  analyticsWrapper: {fileID: 11400000, guid: 23945aa7a6a1d43fa83181f0c70f7683, type: 2}

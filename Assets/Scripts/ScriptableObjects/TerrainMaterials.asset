@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d65f02a1a3432347b26c2945e6d3676, type: 3}
+  m_Name: TerrainMaterials
+  m_EditorClassIdentifier: 
+  earthMaterial: {fileID: 2100000, guid: f260432ce21766f4c9b3f59be08161e2, type: 2}
+  grassMaterial: {fileID: 2100000, guid: c7f3d4a6ef3cd074688df9863c46eeff, type: 2}
+  voidMaterial: {fileID: 2100000, guid: 28b4c374c255fd541a4cbe09dad88094, type: 2}
+  waterMaterial: {fileID: 2100000, guid: dc5d6b83afbeb174289cf25780b93985, type: 2}
+  lavaMaterial: {fileID: 2100000, guid: d3ba2c193416c9347a99771ae6b3761f, type: 2}

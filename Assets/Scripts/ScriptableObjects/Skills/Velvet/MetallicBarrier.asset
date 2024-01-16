@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1aa1252e114e84ba43c98b76d6bb28, type: 3}
+  m_Name: MetallicBarrier
+  m_EditorClassIdentifier: 
+  name: Metallic Barrier
+  description: A heavy armor that heals 15 life, permanently increasing  DEF by 1%
+    (max. 15%)
+  skillArea: 2
+  areaSize: 0
+  range: 0
+  characterAnimationTrigger: defend
+  skillSprite: {fileID: 21300000, guid: 832764886c2ed4ac6b16eda3f23351f0, type: 3}
+  skillAnimation: {fileID: 5374676279982687943, guid: f4623625af0dd32478656c1aa204d1c1,
+    type: 3}
+  skillAnimationOffset: {x: 0.6, y: 1, z: -0.6}
+  skillAttributes:
+  - skillEffect: 1
+    effectValue: 15
+    duration: 0
+  - skillEffect: 3
+    effectValue: 1
+    duration: 0

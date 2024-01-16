@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1aa1252e114e84ba43c98b76d6bb28, type: 3}
+  m_Name: GlowingGlobe
+  m_EditorClassIdentifier: 
+  name: Glowing Globe
+  description: +2% permanent DEF bonus (max. 15%), healing 5 life points
+  skillArea: 2
+  areaSize: 0
+  range: 0
+  characterAnimationTrigger: defend
+  skillSprite: {fileID: 21300000, guid: 51aaf5f0854094171919eac123340486, type: 3}
+  skillAnimation: {fileID: 5374676279982687943, guid: d4143eca6065349039a54d28e99a167b,
+    type: 3}
+  skillAnimationOffset: {x: 0.6, y: 1, z: -0.6}
+  skillAttributes:
+  - skillEffect: 1
+    effectValue: 5
+    duration: 0
+  - skillEffect: 3
+    effectValue: 2
+    duration: 0

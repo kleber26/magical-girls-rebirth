@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2e7db1da52d42dfa0bde8c44cf88c3, type: 3}
+  m_Name: ConsumableHardCurrencyItem
+  m_EditorClassIdentifier: 
+  title: Consumable Item
+  description: 'Every purchase adds 1 item '
+  icon: {fileID: 0}
+  itemQuantity: {fileID: 11400000, guid: 71a99d8123d684450a481a9238653790, type: 2}
+  price: 350
+  maxQuantity: 99

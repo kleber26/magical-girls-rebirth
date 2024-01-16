@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d9e71cd7f0174e8aa7d5c23c9e872ee, type: 3}
+  m_Name: NotificationSettings
+  m_EditorClassIdentifier: 
+  notificationsConfig: {fileID: 11400000, guid: 804414daecdc54af9a1ddff15071ab03,
+    type: 2}
+  rcConfig: {fileID: 11400000, guid: 4ee56e70321a9466294c61af12511581, type: 2}
+  analyticsWrapper: {fileID: 11400000, guid: 23945aa7a6a1d43fa83181f0c70f7683, type: 2}
+  LocalNotifications: []
+  RetentationMessages:
+  - Hey! We miss you! Come back ;)
+  - Long time no see! Come and play with us again! :)
